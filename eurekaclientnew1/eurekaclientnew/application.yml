@@ -8,4 +8,4 @@ eureka:
       leaseExpirationDurationInSeconds: 2
 spring:
    application:
-      name: eurekaclientnewtest
+      name: eurekaclientnewtesttest
