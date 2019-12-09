@@ -3,7 +3,7 @@ This project contains an eureka-service with two clients connecting to the servi
 
 ---
 
-Starting the eureka-server:
+#### Starting the eureka-server:
 
 run `mvn install -DskipTests` in the directory with the POM.xml.
 In the /target an executable .jar has been created.
@@ -12,7 +12,7 @@ run `java -jar <executable.jar>` in the /target directory
 
 The default Port is 8761 for the eureka-server
 
-Starting the clients:
+#### Starting the clients:
 
 run `mvn install -DskipTests` in the directory with the POM.xml.
 In the /target an executable .jar has been created.
