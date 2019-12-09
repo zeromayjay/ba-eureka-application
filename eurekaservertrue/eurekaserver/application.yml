@@ -3,4 +3,6 @@ eureka:
       registerWithEureka: false
       fetchRegistry: false
 server:
-   port: 8089
+   port: 8761
+   enableSelfPreservation: false
+   
