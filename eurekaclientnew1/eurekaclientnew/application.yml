@@ -1,0 +1,9 @@
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8087/eureka
+      instance:
+      preferIpAddress: true
+spring:
+   application:
+      name: eurekaclientnew1
