@@ -8,7 +8,7 @@ Starting the eureka-server:
 run `mvn install -DskipTests` in the directory with the POM.xml.
 In the /target an executable .jar has been created.
 
-run `java -jar <executable.jar` in the /target directory
+run `java -jar <executable.jar>` in the /target directory
 
 The default Port is 8761 for the eureka-server
 
@@ -17,4 +17,4 @@ Starting the clients:
 run `mvn install -DskipTests` in the directory with the POM.xml.
 In the /target an executable .jar has been created.
 
-run `java -jar <executable.jar --server.port=XXXX` in the /target directory and substitute XXXX with a free port number (e.g. 8081).
+run `java -jar <executable.jar> --server.port=XXXX` in the /target directory and substitute XXXX with a free port number (e.g. 8081).
