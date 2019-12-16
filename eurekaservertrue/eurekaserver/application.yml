@@ -2,7 +2,10 @@ eureka:
    client:
       registerWithEureka: false
       fetchRegistry: false
+   server:
+      renewalPercentThreshold: 0.33
 server:
    port: 8761
-   enableSelfPreservation: false
+   
+
    
